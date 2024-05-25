@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Modem Mansion Forum ~ Auth</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="../assets/icons/tab/possible-temporary-icon.ico">
+
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            randomBanner();
+            ReadingFromCookie();
+        };
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wcag-bar">
+            <div class="left-block">
+                <div class=""><img src="../assets/icons/top-icon.png" onclick="toTheMoon()" id="topIc"
+                        alt="Go to the top"></div>
+                <div class=""><img src="../assets/icons/alarge-icon.png" onclick="setFontSizeCookie('150%')" id="largeIc"
+                        alt="Make font size larger"></div>
+                <div class=""><img src="../assets/icons/asmall-icon.png" onclick="setFontSizeCookie('100%')" id="smallIc"
+                        alt="Make font size normal"></div>
+            </div>
+
+            <div class="right-block">
+                <div class=""><img src="../assets/icons/sun-icon.png" onclick="day()" id="dayIc"></div>
+                <div class=""><img src="../assets/icons/moon-icon.png" onclick="night()" id="nightIc"></div>
+            </div>
+
+
+        </div>
+        <div class="thin-head">
+            <div class="block1">
+                <a href="boards.html"><img id="rlogo" src="../assets/icons/r-logo/logo4.gif" width="180px" height="27px"></a>
+                <p id="since">20 Apr 2024 -
+                    25 May 2024 </p>
+            </div>
+
+            <div class="block2">
+                <img src="../assets/icons/special/mm-gif.gif" width="" height="49px">
+            </div>
+
+            <div class="block3">
+
+
+                <a href="signup.html" id="reg"><img src="../assets/icons/register.png" width="16px"
+                        height="16px">Register</a>
+                <a href="login.html" id="log"><img src="../assets/icons/login.png" width="16px"
+                        height="16px">Login</a>
+
+
+
+            </div>
+
+        </div>
+        <div class="tabs">
+            <div class="tab"><a href="boards.html"><img class="icon" id="audio" src="../assets/icons/audio.png"
+                        width="32" height="32">Home</a></div>
+            <div class="tab"><a href="underconstruction.html"><img class="icon" id="video"
+                        src="../assets/icons/video1.png" width="32" height="32">Search</a></div>
+            <div class="tab"><a href="underconstruction.html"><img class="icon" id="pdf"
+                        src="../assets/icons/pdf.png" width="32" height="32">Memes</a></div>
+            <div class="tab"><a href="underconstruction.html.html"><img class="icon" id="gif"
+                        src="../assets/icons/gifs.png" width="32" height="32">Gifs</a></div>
+            <div class="tab"><a href="underconstruction.html"><img class="icon" id="canvas"
+                        src="../assets/icons/canvas.png" width="32" height="32">Ranking</a></div>
+            <div class="tab"><a href="underconstruction.html"><img class="icon" id="map"
+                        src="../assets/icons/map.png" width="32" height="32">Map</a></div>
+
+        </div>
+        <div class="tinynavbar">
+            <a href="boards.html"><span>Home</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>What's New</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Search</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Mail</span></a>
+            <span>|</span>
+            <a href=""><span>News</span></a>
+            <span>|</span>
+            <a href=""><span>Ideas</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Hosted Sites</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Invite</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Memes</span></a>
+            <span>|</span>
+            <a target="_blank" href="https://discord.gg/xjQ8fBmww9"><span>Discord</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Gifs</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Events</span></a>
+            <span>|</span>
+            <a href="underconstruction.html"><span>Forums</span></a>
+            <span>|</span>
+            <a href=""><span>Profile</span></a>
+        </div>
+
+        <div class="header">
+            <div class="logo">
+                <a href="boards.html"><img src="../assets/icons/modem-mansion.png" width="640.250px"
+                        height="41px"></a>
+                <a href="boards.html"><img src="../assets/icons/forum.png" width="145.5px" height="22px"></a>
+
+            </div>
+            <div class="welcome">
+                <p id="welcome"> Welcome, <span id="bold-p">Guest</span>. Please <a href="login.html"><span
+                            id="bold-l">login</span></a> or <a href="signup.html"><span id="bold-l">register</span></a>. -
+                    <a href="signup.html" style="text-decoration: none;"><span id="bold-ld">Thinking of joining the
+                            forum??</span></a></br>
+                    May 25, 2024 - What's on your mind?
+                </p>
+            </div>
+        </div>
+
+        <div class="sub-header">
+            <p id="info">Forum activity: <span>(ง'̀-'́)ง</span></p>
+            <p id="posts">Posts: <span id="posts-stat">8</span></p>
+        </div>
+
+
+        <div class="content">
+
+            <div class="profile">
+                <div class="firstPart">
+                    <div class="info-part">
+
+                        <div class="headline">
+                            <div class="displayedname">
+                                <span id="nickname">chcktstp</span>
+                            </div>
+                            <div class="status">
+                                <img src="../assets/icons/status.png" id="statusimg">
+                                <span id="status">Offline</span>
+                            </div>
+                        </div>
+
+                        <div class="live-part">
+                            <div class="profileimage">
+                                <img src="../assets/icons/profileimage.jpeg"
+                                    style="object-fit: contain; width: 100%; height: 100%;">
+                            </div>
+                            <div class="bio">User hasn&#039;t edited it yet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondPart">
+                    <div class="addinfo">
+                        <div class="ab-mecontent">
+                            <div class="headbar">About me</div>
+                        </div>
+
+                        <div class="content">
+                            <div class="headbar">Some another shit</div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="friends">friends</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <img src="../assets/icons/oldcomputerplant6.png" id="bot-green" width="280px" height="292px">
+            <div class="last-bar">
+                <div class="brick1">
+                    <a href="" id="ab">
+                        <p id="ab">[About]</p>
+                    </a>
+                </div>
+                <div class="brick2">
+                    <a href="/contact" id="contact">
+                        <p id="con">[Contact]</p>
+                    </a>
+                    <a href="/terms" id="tac">
+                        <p id="tac">[Terms and Conditions]</p>
+                    </a>
+                    <a href="/faq" id="faq">
+                        <p id="faq">[FAQ]</p>
+                    </a>
+                </div>
+                <div class="brick3">
+                    <a href="/rules" id="rules">
+                        <p id="rules">[Rules]</p>
+                    </a>
+                    <a href="/guideline" id="fogu">
+                        <p id="fogu">[Forum guide]</p>
+                    </a>
+                </div>
+
+            </div>
+            <p id="end1">Modem Mansion Badges and Cool Sites </p>
+            <p id="end2">which were used as a reference</p>
+            <p id="end3">or also kept the same idea</p>
+            <div class="badgerow1">
+                <a target="_blank" href="https://forum.melonland.net"><img alt="Visit the MelonLand Forum!"
+                        src="https://forum.melonland.net/images/MELONLAND-FORUM.GIF"></a>
+                <a target="_blank" href="https://momg.neocities.org/"><img alt="Visit the Gif Gallery!"
+                        src="https://momg.neocities.org/site-images/momg-badge.gif"></a>
+                <a target="_blank" href="https://melonland.net"><img alt="Visit the MelonLand!"
+                        src="https://melonland.net/images/melonland-badge-2.gif"></a>
+
+
+            </div>
+
+            <div class="badgerow2">
+                <a target="_blank" href="https://textures.neocities.org/"><img class="badge"
+                        src="https://forum.melonland.net/images/textown-badge.gif"
+                        alt="TexTown Badge that links to its site"></a>
+                <a target="_blank" href="https://gifypet.neocities.org/"><img class="badge"
+                        src="https://gifypet.neocities.org/images/badge.gif"></a>
+                <a target="_blank" href="https://pixelsea.neocities.org"><img class="badge" alt="Pixel Sea"
+                        src="https://forum.melonland.net/images/pixelsea-badge.gif"></a>
+                <a target="_blank" href="https://www.project1999.com/"><img class="badge" alt="Visit the Project1999"
+                        src="https://www.project1999.com/forums/images/p99_logo_forum_2.png" width=""></a>
+            </div>
+
+            <div class="badgerow3">
+                <a target="_blank" href="https://www.project1999.com/"><img class="badge" alt="Visit the XPOFF.com"
+                        src="https://xpoff.com/images/logo.png" width=""
+                        alt="XPOFF.com forum logo that links to its site"></a>
+            </div>
+
+        </div>
+
+        <p id="text" style="font-size:13px;">© 2024 Modem Mansion Forum</p>
+        <p id="copyrighttext" style="font-size:10px;">All rights reserved</p>
+        </br>
+    </div>
+</body>
+
+</html>

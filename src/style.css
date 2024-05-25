@@ -1,0 +1,1072 @@
+/*~~~~~~~~~~~~.Windows98 button.~~~~~~~~~~~~*/
+/*https://github.com/jdan/98.css*/
+@font-face {
+    font-family: "Pixelated MS Sans Serif";
+    src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff) format("woff");
+    src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pixelated MS Sans Serif";
+    src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif_bold.woff) format("woff");
+    src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif_bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+button.windows98button {
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    border: none;
+    color: transparent;
+    min-height: 23px;
+    min-width: 75px;
+    text-shadow: 0 0 #222;
+    -webkit-font-smoothing: none;
+    font-family: "Pixelated MS Sans Serif", Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+button.windows98button:not(:disabled):active {
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+
+}
+
+button.windows98button:focus {
+    outline: 1px dotted #000000;
+    outline-offset: -4px;
+}
+
+input[type="submit"].windows98button {
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    border: none;
+    color: transparent;
+    min-height: 23px;
+    min-width: 75px;
+    text-shadow: 0 0 #222;
+    -webkit-font-smoothing: none;
+    font-family: "Pixelated MS Sans Serif", Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input[type="submit"].windows98button:not(:disabled):active {
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+
+}
+
+input[type="submit"].windows98button:focus {
+    outline: 1px dotted #000000;
+    outline-offset: -4px;
+}
+
+/*~~~~~~~~~~~~.Windows98 button.~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~.Windows98 scrollbar.~~~~~~~~~~~~*/
+/* dakedres was here ;3 */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background: none;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-button {
+    width: 16px;
+    height: 16px;
+    background: silver;
+    box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px gray;
+    border: 1px solid;
+    border-color: silver #000 #000 silver;
+}
+
+::-webkit-scrollbar-track {
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAyIDIiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+CjxtZXRhZGF0YT5NYWRlIHdpdGggUGl4ZWxzIHRvIFN2ZyBodHRwczovL2NvZGVwZW4uaW8vc2hzaGF3L3Blbi9YYnh2Tmo8L21ldGFkYXRhPgo8cGF0aCBzdHJva2U9IiNjMGMwYzAiIGQ9Ik0wIDBoMU0xIDFoMSIgLz4KPC9zdmc+");
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: 2px;
+}
+
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTcgNWgxTTYgNmgzTTUgN2g1TTQgOGg3IiAvPgo8L3N2Zz4=");
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTQgNWg3TTUgNmg1TTYgN2gzTTcgOGgxIiAvPgo8L3N2Zz4=");
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTggM2gxTTcgNGgyTTYgNWgzTTUgNmg0TTYgN2gzTTcgOGgyTTggOWgxIiAvPgo8L3N2Zz4=");
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:increment {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTYgM2gxTTYgNGgyTTYgNWgzTTYgNmg0TTYgN2gzTTYgOGgyTTYgOWgxIiAvPgo8L3N2Zz4=");
+}
+
+::-webkit-scrollbar-corner {
+    background: silver;
+}
+
+/*~~~~~~~~~~~~.Windows98 scrollbar.~~~~~~~~~~~~*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 100%;
+}
+
+:root {
+    --thin-header-padding: 15px;
+    --forum-a-color: blue;
+    --forum-a-reserved-color: #404;
+    --forum-a-hover-color: purple;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-select: none;
+    /* Safari, Chrome */
+    -webkit-user-drag: none;
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+    /* CSS3 */
+}
+
+a {
+    color: var(--forum-a-color);
+    text-decoration: underline;
+    z-index: 99;
+    position: relative;
+
+}
+
+a#ab {
+    position: absolute;
+    z-index: 999;
+}
+
+a:visited {
+    color: var(--forum-a-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--forum-a-hover-color);
+    text-decoration: none;
+}
+
+
+
+div.wrapper {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+}
+
+div.wrapper div.wcag-bar {
+    width: 40px;
+    height: 90px;
+    position: fixed;
+    /* border: 1px solid black; */
+    bottom: 12px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    
+}
+
+div.wcag-bar div[class$="block"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+div.wcag-bar img[id$="Ic"] {
+    cursor: pointer;
+    border: 1px dashed red;
+    width:60px; 
+    height:60px;
+}
+
+div.thin-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid fuchsia;
+    border-right: 1px solid fuchsia;
+    border-top: 1px solid fuchsia;
+    background-color: Thistle;
+}
+
+div.block3 form {
+    padding: 0;
+    margin: 0;
+}
+
+button#logoutbtn {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family:TimesNewRoman;
+    text-decoration: underline;
+    font-size: 16px;
+    color: var(--forum-a-color);
+    cursor: pointer;
+    font:inherit;
+    margin-right: var(--thin-header-padding);
+    margin-left:-4px;
+}
+
+button#logoutbtn:hover {
+    text-decoration: none;
+    color: var(--forum-a-hover-color);
+}
+
+div.block3 a#reg,
+div.block3 a#log,
+div.block3 a#profile {
+    margin-right: var(--thin-header-padding);
+}
+
+div.block3 img {
+    margin-right: 3px;
+}
+
+div.block1 {
+    width: 33%;
+    padding: 2px;
+    padding-left: var(--thin-header-padding);
+}
+
+div.block2 {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.block3 {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: baseline;
+
+}
+
+p#since {
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+}
+
+div.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid fuchsia;
+    width: 100%;
+    /* margin-bottom: 40px; */
+    padding: 20px;
+
+}
+
+div.tinynavbar {
+    --border-color: fuchsia;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    border-top: 0 solid var(--border-color);
+    border-left: 0px solid var(--border-color);
+    border-right: 0px solid var(--border-color);
+    border-bottom: 0px;
+    background: url('/assets/icons/fallingleaves.gif');
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 6px;
+
+}
+
+div.tinynavbar span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.tabs .tab {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+img.icon#video,
+img.icon#pdf,
+img.icon#gif {
+    margin-right: 4px;
+}
+
+div.header {
+
+    width: 100%;
+    border: 1.9px dashed fuchsia;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.header div.logo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    background: url("/assets/icons/sunset.png");
+    background-size: cover;
+}
+
+div.header div.welcome {
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 57%;
+    border: 1px solid red;
+
+}
+
+p#welcome {
+    font-weight: 500;
+    color: purple;
+}
+
+span#bold-p {
+    color: #404;
+    font-weight: bold;
+}
+
+span#bold-l,
+span#bold-ld {
+    color: peru;
+    font-weight: bold;
+
+}
+
+span#bold-l {
+    text-decoration: underline;
+}
+
+span#bold-l:hover,
+span#bold-ld:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+div.sub-header {
+    width: 100%;
+    height: 25px;
+    background-color: MediumOrchid;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid fuchsia;
+    border-left: 1px solid fuchsia;
+    border-right: 1px solid fuchsia;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+div.sub-header p#info {
+    margin-right: 20px;
+    margin-left: var(--thin-header-padding);
+}
+
+div.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid fuchsia; */
+    margin-bottom: 15px;
+}
+
+/*.~~~~~~~~~~~~.Page Message.~~~~~~~~~~~~.*/
+div.content div.pagemessage {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("/assets/icons/giphy3.gif");
+    /* background-size: cover; */
+    
+    color: white;
+    
+    font-size: 80px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    -webkit-text-stroke: 1.5px black;
+}
+
+/*.~~~~~~~~~~~~.Page Message.~~~~~~~~~~~~.*/
+
+/*.~~~~~~~~~~~~.Left part.~~~~~~~~~~~~.*/
+div.content div.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 16%;
+    /* border:1px solid red; */
+}
+
+div.content h2#latestnews {}
+
+div.content p#fun-fact {
+    margin-bottom: 10px;
+}
+
+div.new {
+    background-color: Thistle;
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+div.new:last-of-type {
+    margin-bottom: 0px;
+}
+
+div.new div.text {
+    padding-left: 25px;
+    padding-top: 4px;
+}
+
+div.new img {
+    object-fit: contain;
+    width: 100%;
+
+}
+
+div.new p#title {
+    width: 100%;
+    /* background-color: MediumOrchid; */
+    background: url("/assets/icons/giftobe-better.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+/*.~~~~~~~~~~~~.Left part.~~~~~~~~~~~~.*/
+
+/*.~~~~~~~~~~~~.Right part.~~~~~~~~~~~~.*/
+div.content div.right-part {
+    width: 83%;
+    /* border: 1px solid red; */
+    background-color: Thistle;
+    position: relative;
+}
+
+div.right-part div.boards {
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+div.gen-tabs table.posts {
+    width: 100%;
+}
+
+/*.~~~~~~~~~~~~.Table posts.~~~~~~~~~~~~.*/
+
+table.posts,
+table.posts td,
+table.posts tr {
+
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+table.posts td#main {
+    text-align: start;
+    padding-left: 33px;
+    
+
+}
+
+table.posts tr.data-row {
+    height: 120px;
+}
+
+table.posts tr.data-row td#back {
+    width: 50px;
+    background: url("/assets/icons/fallingleaves.gif");
+    
+}
+
+table.posts tr.data-row td#posttext {
+    position: relative;
+}
+
+tr.data-row td#posttext div.dlt-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+img#frame{
+    background: url("/assets/icons/profileimage.jpeg");
+    background-size: cover;
+    width:"200px";
+    height: "200px";
+}
+table.posts tr.data-row td#posttext {
+    text-align: start;
+    padding-left:8px;
+    
+}
+
+table.posts tr.data-row td#autor {
+    width: 280px;
+    
+}
+
+table.posts tr.data-row td#autor div.autorcanvas {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*.~~~~~~~~~~~~.Table posts.~~~~~~~~~~~~.*/
+
+div.gen-tabs table.board {
+
+    width: 100%;
+    
+}
+
+table.board,
+table.board td,
+table.board tr {
+
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr.head-row {
+    /* font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; */
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    /* -webkit-text-stroke: 0.8px black; */
+    text-shadow:
+        0.98px 0.98px 0 #000,
+        -0.98px 0.98px 0 #000,
+        -0.98px -0.98px 0 #000,
+        0.98px -0.98px 0 #000;
+    height: 40px;
+    background: url("/assets/icons/notable-back.gif");
+    background-repeat: repeat-x;
+}
+
+tr.data-row {
+    height: 55px;
+}
+
+tr.thread:nth-child(even) {
+    background-color: #df8dff;
+    color: yellow;
+}
+
+tr.thread:nth-child(even) a {
+    color: peru;
+}
+
+tr.divider {
+    color: #56FF00;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 21px;
+    text-decoration: underline;
+    height: 30px;
+    /* background: url("/assets/icons/notable-back.gif"); */
+    background: url("/assets/icons/190divideroptimized.gif");
+    background-repeat: repeat-x;
+    background-size: cover;
+
+}
+
+tr.divider td#divider-text {
+    text-align: left;
+    padding-left: 33px;
+}
+
+
+table.board td#main {
+    width: 350px;
+    text-align: left;
+    padding-left: 33px;
+}
+
+table.board td#image {
+    width: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+table.board td#image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+}
+
+table.board td#text {
+    width: 500px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+table.board td#threads {
+    width: 20px;
+}
+
+table.board td#posts {
+    width: 40px;
+}
+
+table.board td#moderators {
+    width: 80px;
+}
+
+table.board td#lastpost {
+    width: 140px;
+}
+
+
+/*.~~~~~~~~~~~~.Right part.~~~~~~~~~~~~.*/
+
+/*.~~~~~~~~~~~~.Login/signup.~~~~~~~~~~~~.*/
+div.form-content {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.form-content div.heading {
+    width: 100%;
+    border-top: 1px solid #404;
+    border-left: 1px solid #404;
+    border-right: 1px solid #404;
+    border-bottom: 1px solid #404;
+    padding-left: var(--thin-header-padding);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: url("/assets/icons/notable-back.gif");
+    background-repeat: repeat-x;
+    font-weight: bold;
+    word-spacing: 2.5px;
+}
+
+div.form-content div.form-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* border: 1.9px dashed fuchsia; */
+    border-top: 0px solid #404;
+    border-left: 1.9px dashed fuchsia;
+    border-right: 1.9px dashed fuchsia;
+    border-bottom: 1.9px dashed fuchsia;
+    position: relative;
+    z-index: 1;
+}
+
+img#green1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+img#green2 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+img#bot-green {
+    position: absolute;
+    top: -10px;
+    right: 300px;
+    overflow: hidden;
+}
+
+div.form-login div.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.inputs div[class^="input"] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-bottom: 15px;
+
+}
+
+div[class^="input"] input {
+    margin-left: 10px;
+}
+
+
+/*.~~~~~~~~~~~~.Login/signup.~~~~~~~~~~~~.*/
+
+/*.~~~~~~~~~~~~.Footer.~~~~~~~~~~~~.*/
+div.footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    z-index: 0;
+    /*       */
+}
+
+div.footer div.last-bar {
+    width: 100%;
+    height: 25px;
+    border: 1px dashed fuchsia;
+    /* background: url("icons/backg.gif"); */
+    background: url("/assets/icons/backg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+div.last-bar div[class^="brick"] {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+
+div.last-bar div.brick1 {
+    justify-content: start;
+    padding-left: var(--thin-header-padding);
+}
+
+div.last-bar div.brick2 p {
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+div.last-bar div.brick2 a {
+    text-decoration: underline;
+    color: white;
+}
+
+div.last-bar div.brick2 a:hover {
+    color: #404;
+    text-decoration: none;
+}
+
+div.last-bar div.brick3 {
+    justify-content: end;
+    padding-right: var(--thin-header-padding);
+}
+
+div.last-bar div.brick3 p#rules {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+div.last-bar div.brick3 p#fogu {
+    margin-left: 3px;
+
+}
+
+div.footer p[id^="end"]:last-of-type {
+    /*...*/
+    margin-bottom: 15px;
+}
+
+
+
+/*.~~~~~~~~~~~~.Footer.~~~~~~~~~~~~.*/
+
+
+
+/*.~~~~~~~~~~~~.Profile.~~~~~~~~~~~~.*/
+
+div.profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    border: 1.9px dashed fuchsia;
+}
+
+div.profile div.firstPart {
+    display: flex;
+    width: 40%;
+    height: 100%;
+
+    padding-top: var(--thin-header-padding);
+}
+
+div.firstPart div.info-part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--thin-header-padding);
+}
+
+div.info-part div.headline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+
+}
+
+div.headline div.displayedname {
+    margin-right: 10px;
+}
+
+div.headline div.status {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.status img#statusimg {
+    margin-right: 10px;
+}
+
+div.displayedname span#nickname {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+div.info-part div.live-part {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+div.live-part div.profileimage {
+    width: 58%;
+    height: 300px;
+
+    background-color: red;
+}
+
+div.live-part div.bio {
+    width: 40%;
+    /* border: 1px solid purple; */
+}
+
+div.profile div.secondPart {
+    display: flex;
+    width: 60%;
+    height: 100%;
+
+}
+
+div.secondPart div.addinfo {
+    width: 70%;
+    height: 400px;
+
+    border-left: 1.9px dashed gray;
+    border-bottom: 1.9px dashed gray;
+    border-right: 1.9px dashed gray;
+}
+
+div.addinfo div.ab-mecontent {
+    width: 100%;
+    height: 200px;
+}
+
+div.addinfo div.headbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border: 1px solid darkgray;
+}
+
+div.secondPart div.friends {
+    width: 30%;
+    height: 360px;
+    border: 1px solid orange;
+}
+
+img.badge {
+    width: 88px;
+    height: 31px;
+    background-color: white;
+}
+
+/*.~~~~~~~~~~~~.Profile.~~~~~~~~~~~~.*/
+
+/*.~~~~~~~~~~~~.Dark Mode.~~~~~~~~~~~~.*/
+div.wrapper.night {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+}
+
+div.tabs .tab.night {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+div.gen-tabs table.board.night {
+
+    width: 100%;
+    color: black;
+    
+}
+
+div.wcag-bar div[class$="block night"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+div.wcag-bar img[id$="Ic night"] {
+    cursor: pointer;
+    border: 1px dashed red;
+    width:60px; 
+    height:60px;
+}
+
+p#since.night {
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    color: black;
+}
+
+div.thin-head.night div.block1.night {
+    color: black;
+}
+
+div.form-content div.form-login.night {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* border: 1.9px dashed fuchsia; */
+    border-top: 0px solid #404;
+    border-left: 1.9px dashed fuchsia;
+    border-right: 1.9px dashed fuchsia;
+    border-bottom: 1.9px dashed fuchsia;
+    position: relative;
+    z-index: 1;
+}
+
+div.gen-tabs table.posts.night {
+    width: 100%;
+    color: black;
+}
+/*.~~~~~~~~~~~~.Dark Mode.~~~~~~~~~~~~.*/
