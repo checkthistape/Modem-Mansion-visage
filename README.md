@@ -1,5 +1,12 @@
+<img src="https://raw.githubusercontent.com/checkthistape/Modem-Mansion-visage/main/resources/main%20page.png" width="" height="">
+
 # Modem-Mansion-visage
 
+Modem Mansion is another try to recreate that nostalgic web design charm of the 1990s.
+Our project offers 90s web forum features and user interaction tools, serving as a digital sanctuary for web enthusiasts. Our purpose is to protest against the boringness of modern web design, continuing and supporting the Web Revival Movement and [Melon's](https://melonking.net/thoughts/manifesto) manifesto, which has been a big inspiration for this project.
+Focused on community engagement, Modem Mansion provides an immersive environment for users to connect, share, and explore the charm of the early internet web world together.
+
+____
 
 # Change Log
 All notable changes to this project will be documented in this file.
